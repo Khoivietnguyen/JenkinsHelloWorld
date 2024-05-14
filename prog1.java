@@ -20,16 +20,16 @@ public class prog1 {
         String reportDate = df.format(today);
 
         // Print what date is today!
-        System.out.println("Report Date: " + reportDate);
+        System.out.println("Report Date is: " + reportDate);
 
         // Using Java 8.
         // Creates a DateTimeFormatter using the ofPattern() method. Get
         // the current date by calling the .now() method of LocalDate.
         // To convert to string use the format() method of the LocalDate
         // and pass the formatter object as argument.
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern(pattern);
-        LocalDate now = LocalDate.now();
-        reportDate = now.format(formatter);
-        System.out.println("Report Date: " + reportDate);
+        //DateTimeFormatter formatter = DateTimeFormatter.ofPattern(pattern);
+        //LocalDate now = LocalDate.now();
+        //reportDate = now.format(formatter);
+        //System.out.println("Report Date: " + reportDate);
     }
 }
