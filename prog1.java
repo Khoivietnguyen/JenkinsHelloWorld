@@ -20,7 +20,7 @@ public class prog1 {
         String reportDate = df.format(today);
 
         // Print what date is today!
-        System.out.println("Report Date is: " + reportDate);
+        System.out.println("Report Date is ....: " + reportDate);
 
         // Using Java 8.
         // Creates a DateTimeFormatter using the ofPattern() method. Get
